@@ -1,0 +1,31 @@
+body{
+  font-family: arial;
+  color: #111111;
+  font-size: 1em;
+}
+h1{
+  text-transform: capitalize;
+}
+table{
+  width: 600px;
+}
+th, td{
+  padding: 7px 10px 10px 10px;
+}
+th{
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 90%;
+  border-bottom: 2px dashed black;
+  text-align: left;
+}
+tr.even {
+  background-color: #efefef;
+}
+.money {
+  text-align: right;
+}
+.even:hover{
+  background-color: #c3e635;
+  cursor: url("bulletin.gif") 2 2;
+}
